@@ -6,7 +6,13 @@
     "python.languageServer": "Pylance",
     "python.analysis.typeCheckingMode": "basic",
     "python.analysis.extraPaths": [
-        ".vscode\\Pico-Stub\\stubs"
+        null,
+        "c:\\Users\\bobr7\\.vscode\\extensions\\joedevivo.vscode-circuitpython-0.1.10\\stubs",
+        "c:\\Users\\bobr7\\AppData\\Roaming\\Code\\User\\globalStorage\\joedevivo.vscode-circuitpython\\bundle\\20210403\\adafruit-circuitpython-bundle-py-20210403\\lib"
     ],
-    "python.pythonPath": "C:\\Python39\\python.exe"
+    "python.pythonPath": "C:\\Python39\\python.exe",
+    "python.linting.pylintEnabled": false,
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportMissingModuleSource": "none"
+    }
 }
